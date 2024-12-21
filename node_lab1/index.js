@@ -13,5 +13,6 @@ const server = http.createServer((req, res) => {
 
 server.listen(port);
 
+
 // Put a friendly message on the terminal
 console.log(`Server running at ${port}`);
